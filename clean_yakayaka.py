@@ -4,7 +4,7 @@ import sys
 import time
 import commands
 
-yaka_dir = '../yakayaka'
+yaka_dir = 'yakayaka'
 
 
 def fork():

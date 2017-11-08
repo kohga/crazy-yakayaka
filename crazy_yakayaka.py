@@ -4,12 +4,12 @@ import sys
 import time
 import commands
 
-yaka_dir = '../yakayaka'
+yaka_dir = 'yakayaka'
 
 
 def make_yaka():
     os.system('mkdir -p ' + yaka_dir )
-    os.system('cp yakayaka.png ' + yaka_dir)
+    os.system('cp yakayaka.png ' + yaka_dir + '/')
 
 
 def fork():
